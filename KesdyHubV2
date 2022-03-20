@@ -1,0 +1,31 @@
+wait(3)
+print("Loading...")
+wait(0.5)
+print("Loaded Succesfully ENJOY!")
+if game.CreatorId == 3959677 then
+loadstring(game:HttpGet("https://gist.githubusercontent.com/UnknownDevBaaa/82a8cecfac4a12ff9d3188ba0f7d7104/raw/62372d5d89d78f46f3767f814a8b7f6a42da52c5/PetSimulatorX",true))()
+end
+if game.CreatorId == 5348890 then
+loadstring(game:HttpGet("https://gist.githubusercontent.com/UnknownDevBaaa/07c6c55d4b2ba70ccd77e591bfd1b852/raw/ccece900d73cb4a44656ff62935470a4d3f78d2a/KingLegacy",true))()
+end
+if game.CreatorId == 3194064 then
+loadstring(game:HttpGet("https://gist.githubusercontent.com/UnknownDevBaaa/354d7f6bb6cc7de31a91994bbcd1b59e/raw/c20d07c48524a3168984dce37c5309fe601ca18b/YBA",true))()
+end
+if game.CreatorId == 1226491 then
+loadstring(game:HttpGet("https://gist.githubusercontent.com/UnknownDevBaaa/862d5a7294cce3d30bb1367f1ad26061/raw/1142a67b8e49a9d0ea9ef123b523a475aaad0c6d/ShindoLife",true))()
+end
+if game.CreatorId == 4372130 then
+loadstring(game:HttpGet("https://gist.githubusercontent.com/UnknownDevBaaa/62cfcf3fb61d839a1d87db541bfa8634/raw/92ee7da61f90df812a44864eee58332a2bbcc24d/BloxFruits",true))()
+end
+if game.CreatorId == 4294803 then
+loadstring(game:HttpGet("https://gist.githubusercontent.com/UnknownDevBaaa/e2a8476b9ac3ea790fc2de49cf9bfc37/raw/608f9ba3335aef25a5d0f2836a27b81091c9e6a6/DemonFall",true))()
+end
+if game.CreatorId == 997469855 then
+loadstring(game:HttpGet("https://gist.githubusercontent.com/UnknownDevBaaa/9e6cf1f32775cbfaae38a81940e74795/raw/db0724e0d930e5423fcd02e6cbb4d42280ed619a/ABV",true))()
+end
+if game.CreatorId == 6781227 then
+loadstring(game:HttpGet("https://gist.githubusercontent.com/UnknownDevBaaa/e97a87771a8c8f2be40b5af451f64217/raw/ad8e689393a7cecdc4ba564799c67830c634ec58/NinjaTycoon",true))()
+end
+
+
+--Made By CyrLock#1985
