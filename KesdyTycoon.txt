@@ -1,0 +1,11 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+local win = DiscordLib:Window("Kesdy Hub V2")
+local serv = win:Server("Scripts", "")
+local btns = serv:Channel("Scripts")
+
+btns:Button("Execute EasyHub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheScytheis/rbxdf/main/Ao8s9aSH47L.lua"))()
+DiscordLib:Notification("Notification", "Executed Succesfully.", "Okay!")
+end)
+
+btns:Seperator()

@@ -1,0 +1,11 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+local win = DiscordLib:Window("Kesdy Hub V2")
+local serv = win:Server("Scripts", "")
+local btns = serv:Channel("Scripts")
+
+btns:Button("Execute Strike Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded", true))()
+DiscordLib:Notification("Notification", "Executed Succesfully.", "Okay!")
+end)
+
+btns:Seperator()

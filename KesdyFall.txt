@@ -1,0 +1,47 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+local win = DiscordLib:Window("Kesdy Hub V2")
+local serv = win:Server("Scripts", "")
+local btns = serv:Channel("Scripts")
+
+btns:Button("Execute Item-Npc Log", function()
+--Made By CyrLock#1985
+
+getgenv().find = {"Perfect Crystal", "Red Jewel", "Green Jewel", "Green Crystal", "Kaigaku"}
+getgenv().webhook = "https://discord.com/api/webhooks/950440208590057492/lalh2mDYQvDm29TeH0TXWZSP8Y571uMXqRqv23fqWCp-iQYQEaIHjyMkcqh7BPjUk5m1"
+loadstring(game:HttpGet('https://gist.githubusercontent.com/UnknownDevBaaa/90cb37d77fa59b02cac6226a408b8328/raw/285bbdda7c56a97069ba7d6b8bad8779dbfe9280/gistfile1.txt', true))()
+DiscordLib:Notification("Notification", "Notification sent into #kai-perfect-logs", "Okay!")
+end)
+btns:Seperator()
+
+btns:Button("Execute Ghost hub v3.4", function()
+--Made By CyrLock#1985
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ghost-home/public/main/Testing/Demonfall%20v3.4.lua', true))()
+DiscordLib:Notification("Succes", "Executed GHOST hub!", "YesSir!")
+end)
+btns:Seperator()
+
+btns:Button("Execute Ghost hub v3.2", function()
+--Made By CyrLock#1985
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ghost-home/public/main/Testing/Demonfall_3.2.lua', true))()
+DiscordLib:Notification("Succes", "Executed GHOST hub!", "YesSir!")
+end)
+btns:Seperator()
+
+btns:Button("Execute Ghost hub v3.1", function()
+--Made By CyrLock#1985
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ghost-home/public/main/Testing/Demonfall_v3.1.lua', true))()
+DiscordLib:Notification("Succes", "Executed GHOST hub!", "YesSir!")
+end)
+btns:Seperator()
+
+
+btns:Button("Execute LeadMarker", function()
+--Made By CyrLock#1985
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LeadMarker/Scripts/main/KronosFall.lua"))()
+DiscordLib:Notification("Succes", "Executed LeadMarker hub!", "YesSir!")
+end)
+btns:Seperator()

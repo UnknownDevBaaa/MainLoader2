@@ -1,0 +1,18 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+local win = DiscordLib:Window("Kesdy Hub V2")
+local serv = win:Server("Scripts", "")
+local btns = serv:Channel("Scripts")
+
+btns:Button("Execute EzPets", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TurfuGoldy/GoldenScripts/main/EzPets.lua"))()
+DiscordLib:Notification("Notification", "Executed Succesfully.", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Button("Execute", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/not-weuz/Lua/main/petsimx.lua"))()
+DiscordLib:Notification("Notification", "Executed Succesfully.", "Okay!")
+end)
+
+btns:Seperator()
