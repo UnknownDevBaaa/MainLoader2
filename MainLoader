@@ -1,0 +1,3 @@
+loadstring(game:HttpGet"https://raw.githubusercontent.com/UnknownDevBaaa/MainLoader2/main/whitelist2.md")()
+--Made By CyrLock#1985
+--This script has a Whitelist system.
